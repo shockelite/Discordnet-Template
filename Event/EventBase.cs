@@ -22,7 +22,7 @@
         public void Log(string value) {
             if (Debug.HasFlag(EventLevel.Info)) {
                 System.Console.ForegroundColor = System.ConsoleColor.DarkGray;
-                System.Console.WriteLine(this.GetType() + " - " + value, System.ConsoleColor.DarkRed);
+                System.Console.WriteLine(this.GetType() + " - " + value);
                 System.Console.ResetColor();
             }
         }
@@ -33,8 +33,8 @@
         /// <param name="value">Input</param>
         public void LogWarning(string value) {
             if (Debug.HasFlag(EventLevel.Warning)) {
-                System.Console.ForegroundColor = System.ConsoleColor.Red;
-                System.Console.WriteLine(this.GetType() + " - " + value, System.ConsoleColor.DarkRed);
+                System.Console.ForegroundColor = System.ConsoleColor.Yellow;
+                System.Console.WriteLine(this.GetType() + " - " + value);
                 System.Console.ResetColor();
             }
         }
@@ -46,7 +46,7 @@
         public void LogError(string value) {
             if (Debug.HasFlag(EventLevel.Error)) {
                 System.Console.ForegroundColor = System.ConsoleColor.Red;
-                System.Console.WriteLine(this.GetType() + " - " + value, System.ConsoleColor.DarkRed);
+                System.Console.WriteLine(this.GetType() + " - " + value);
                 System.Console.ResetColor();
             }
         }

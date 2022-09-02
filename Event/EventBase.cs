@@ -16,7 +16,7 @@
         public EventLevel Debug = EventLevel.Info | EventLevel.Warning | EventLevel.Error;
 
         /// <summary>
-        /// Log informational text to console if <see cref="Debug"/> is set to <see cref="EventLevel.Everything"/>.
+        /// Log informational text to console if <see cref="Debug"/> contains the <see cref="EventLevel.Info"/> flag.
         /// </summary>
         /// <param name="value">Input</param>
         public void Log(string value) {
@@ -28,7 +28,7 @@
         }
 
         /// <summary>
-        /// Log warning text to console if <see cref="Debug"/> is set to <see cref="EventLevel.Warning"/> or greater.
+        /// Log warning text to console if <see cref="Debug"/> contains the <see cref="EventLevel.Warning"/> flag.
         /// </summary>
         /// <param name="value">Input</param>
         public void LogWarning(string value) {
@@ -40,7 +40,7 @@
         }
 
         /// <summary>
-        /// Log error text to console if <see cref="Debug"/> is set to <see cref="EventLevel.Error"/> or greater.
+        /// Log error text to console if <see cref="Debug"/> contains the <see cref="EventLevel.Error"/> flag.
         /// </summary>
         /// <param name="value">Input</param>
         public void LogError(string value) {

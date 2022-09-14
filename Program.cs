@@ -72,7 +72,7 @@ namespace EmptyBot {
                     // Display common properties within the DiscordSocketClient object.
                     case "status":
                         if (Client.ConnectionState == ConnectionState.Connected)
-                            Console.WriteLine("Latecy=" + Client.Latency + ", State=" + Client.ConnectionState + ", Presence=" + Client.Status + ", User=" + Client.CurrentUser.Username + "#" + Client.CurrentUser.Discriminator);
+                            Console.WriteLine("Latency=" + Client.Latency + ", State=" + Client.ConnectionState + ", Presence=" + Client.Status + ", User=" + Client.CurrentUser.Username + "#" + Client.CurrentUser.Discriminator);
                         else
                             Console.WriteLine("State=" + Client.ConnectionState);
                         break;

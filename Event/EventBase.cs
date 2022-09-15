@@ -1,4 +1,4 @@
-﻿namespace EmptyBot.Event {
+﻿namespace Valkyrie.DiscordBot.Event {
 
     /// <summary>
     /// Base class for events.

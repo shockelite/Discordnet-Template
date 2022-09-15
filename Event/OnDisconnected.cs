@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace EmptyBot.Event {
+namespace Valkyrie.DiscordBot.Event {
 
     /// <inheritdoc cref="Discord.WebSocket.BaseSocketClient.Disconnected"/>
     public class OnDisconnected : EventBase {

@@ -1,7 +1,7 @@
 ﻿using Discord;
 using System.Threading.Tasks;
 
-namespace EmptyBot.Event {
+namespace Valkyrie.DiscordBot.Event {
 
     /// <inheritdoc cref="Discord.WebSocket.BaseSocketClient.Log"/>
     public class OnLog : EventBase {

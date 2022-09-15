@@ -2,7 +2,7 @@
 using Discord.WebSocket;
 using System.Threading.Tasks;
 
-namespace EmptyBot.Event {
+namespace Valkyrie.DiscordBot.Event {
 
     /// <inheritdoc cref="Discord.WebSocket.BaseSocketClient.ReactionAdded"/>
     public class OnReactionAdded : EventBase {

@@ -1,7 +1,7 @@
 ﻿using Discord.WebSocket;
 using System.Collections.Generic;
 
-namespace EmptyBot.Event {
+namespace Valkyrie.DiscordBot.Event {
 
     /// <summary>
     /// Holds all <see cref="BaseSocketClient"/> events.

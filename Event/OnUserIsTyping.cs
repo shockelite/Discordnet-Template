@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace EmptyBot.Event {
+namespace Valkyrie.DiscordBot.Event {
 
     /// <inheritdoc cref="Discord.WebSocket.BaseSocketClient.UserIsTyping"/>
     public class OnUserIsTyping : EventBase {

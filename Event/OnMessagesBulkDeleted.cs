@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Valkyrie.DiscordBot.Event {
+namespace EmptyBot.Event {
 
     /// <inheritdoc cref="Discord.WebSocket.BaseSocketClient.MessagesBulkDeleted"/>
     public class OnMessagesBulkDeleted : EventBase {

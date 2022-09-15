@@ -3,7 +3,7 @@ using Discord.WebSocket;
 using System;
 using System.Threading.Tasks;
 
-namespace Valkyrie.DiscordBot {
+namespace EmptyBot {
     internal class Program {
 
         /// <summary>

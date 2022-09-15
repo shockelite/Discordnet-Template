@@ -2,7 +2,7 @@
 using Discord.WebSocket;
 using System.Threading.Tasks;
 
-namespace Valkyrie.DiscordBot.Event {
+namespace EmptyBot.Event {
 
     /// <inheritdoc cref="Discord.WebSocket.BaseSocketClient.ReactionRemoved"/>
     public class OnReactionRemoved : EventBase {

@@ -1,7 +1,7 @@
 ﻿using Discord.WebSocket;
 using System.Threading.Tasks;
 
-namespace Valkyrie.DiscordBot.Event {
+namespace EmptyBot.Event {
 
     /// <inheritdoc cref="Discord.WebSocket.BaseSocketClient.RequestToSpeak"/>
     public class OnRequestToSpeak : EventBase {

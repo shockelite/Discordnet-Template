@@ -1,4 +1,4 @@
-﻿namespace Valkyrie.DiscordBot.Event {
+﻿namespace EmptyBot.Event {
 
     /// <summary>
     /// Determines types of event to log to console.
